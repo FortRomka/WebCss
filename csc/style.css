@@ -1,90 +1,47 @@
-h1 {
-  width: 696px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 60px; 
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+:root {
+  --accent-color: #2196F3;
+  --logo-color: #000000;
+  --title-color: #FFFFFF;
+  --desk-color: #757575;
+  --color: #212121;
 }
 
-body {
-  width: 1600px;
- height: 600px;
- flex-shrink: 0;
-  background: #2F303A;
-}
-
-h3 {
-  width: 270px;
-  color: #212121;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.logo {
+  color: var(--logo-color);
 }
 
 p {
-  width: 270px;
-  height: 72px;
-  flex-shrink: 0;
-  color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.42px;
+  color: var(--desk-color);
+}
+
+.button {
+  color: var(--accent-color);
+}
+
+.shapka {
+  color: var(--title-color);
 }
 
 h2 {
-  color: #212121;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+  color: var(--color);
 }
 
-img {
-  width: 270px;
-  height: 260px;
-  flex-shrink: 0;
-  background: url(<igor.png>) lightgray -86.437px -3.457px / 196.208% 136.002% no-repeat;
-  background: url(<olga.png>) lightgray -40.687px -0.224px / 175.271% 121.356% no-repeat;
-  background: url(<mukola.png>) lightgray -227.68px -8.844px / 193.508% 134.131% no-repeat;
-  background: url(<michailo>) lightgray -74.896px 0px / 152.119% 105.326% no-repeat;
+h3 {
+  color: var(--color);
 }
 
-a:href {
-  color: #2196F3;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-color: #FFF;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+.email_color {
+  color: var(--accent-color);
 }
 
-button:button {
-  width: 216px;
-  height: 50px;
-  flex-shrink: 0;
-  color: #2196F3;
+.nav_color_studio {
+  color: var(--accent-color);
+}
+
+.header_a {
+  color: var(--color);
+}
+
+.footer_a {
+  color: var(--color);
 }
