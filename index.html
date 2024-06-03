@@ -12,11 +12,13 @@
   <body>
     <header>
       <a href="./index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./pages/portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+      <nav class="header-nav"></nav>
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="./index.html" class="header-link">Студія</a>
+          <a href="./pages/portfolio.html" class="header-link">Портфоліо</a>
+          <li><a href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul>
@@ -26,9 +28,9 @@
     </header>
     <main>
       <!-- Секція герой -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1><span class="hero-title1">Ефективні рішення для вашого бізнесу</span></h1>
+        <button type="button" class="hero-btn">Замовити послугу</button>
       </section>
       <!-- Наші переваги -->
       <section>
@@ -64,7 +66,7 @@
       </section>
       <!-- Чим ми займаємося -->
       <section>
-        <h2>Чим ми займаємося</h2>
+        <h2 class="catalog-heading">Чим ми займаємося</h2>
         <ul>
           <li><img src="./img/computer.jpg" alt="computer" /></li>
           <li><img src="./img/phone.png" alt="phone" /></li>
@@ -74,8 +76,8 @@
       <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
-        <ul>
-          <li>
+        <ul class="hero-list">
+          <li class="hero-item">
             <img src="./img/igor.png" alt="igor" />
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
@@ -85,12 +87,12 @@
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="hero-item">
             <img src="./img/mukola.png" alt="mukola" />
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="hero-item">
             <img src="./img/michail.png" alt="michail" />
             <h3>Михайло Єрмаков</h3>
             <p>UI Designer</p>
