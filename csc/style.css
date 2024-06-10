@@ -11,7 +11,7 @@ root {
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
 
-.logo-span1 {
+.web {
   color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
@@ -21,7 +21,7 @@ root {
   letter-spacing: 0.78px;
 }
 
-.logo-span2 {
+.studio {
   color: #000;
   font-family: Raleway;
   font-size: 26px;
@@ -31,7 +31,7 @@ root {
   letter-spacing: 0.78px;
 }
 
-.header-link {
+.header-nav {
   color: var(--accent-color);
   font-size: 14px;
   font-weight: 500;
@@ -39,7 +39,7 @@ root {
   letter-spacing: 0.28px;
 }
 
-.contact-item1 {
+.nav-link {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -48,7 +48,7 @@ root {
   letter-spacing: 0.28px;
 }
 
-.contact-item2 {
+.header-item {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -58,7 +58,7 @@ root {
 }
 
 .decision {
-  background-color: var(#2F303A;);
+  background-color: var(#2F303A);
 }
 
 .decision-title {
