@@ -13,6 +13,24 @@
     font-family: "Roboto";
   }
   
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    direction: none;
+  }
+  
+  image {
+    display: block;
+  }
+
+  h1, h2, h3, h4, p {
+    margin: 0;
+  }
+
 .web {
 color: var(--acssent-color);
 font-family: "Raleway";
@@ -179,12 +197,4 @@ line-height: 1.87;
 letter-spacing: 0.48px;
 }
 
-.element {
-  width: 350px;
-  height: 220px;
-  padding: 15px 10px 20px 10px;
-  margin-bottom: 30px;
-  border: 2px dashed red;
-  background-color: green;
-}
 
