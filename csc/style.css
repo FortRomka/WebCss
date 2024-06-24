@@ -12,11 +12,18 @@
       font-family: "Roboto";
     }
     .container {
-      width: 1170px;
-      height: 2346px;
-      padding: 30px;
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      outline: 1px solid red;
     }
-    
+    .header {
+      padding-top: 25px;
+      padding-bottom: 24px;
+    }
+
     h1,h2,h3,h4,h5,h6,p {
         margin: 0;
     }
@@ -39,8 +46,8 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
-}
 
+}
 .studio {
   color: var(--logo-color);
 font-family: "Raleway";
@@ -48,40 +55,35 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
-}
 
-.nav-items {
+}
+.nav-item {
   color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
-}
+display: flex;
 
-.nav-link {
-    color: var(--text-color);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.28px;
-  }
-  
-.header-link {
+
+}
+.header-list {
   color: var(--addres-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
-}
 
+
+}
 .main {
   background-color: var(--main-background);
 }
-
-.hero {
+.hiro {
   background-color: var(--footer-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-
 .hero-title {
   color: var(--main-background);
 text-align: center;
@@ -90,12 +92,16 @@ font-weight: 900;
 line-height: 1.36;
 letter-spacing: 2.64px;
 text-transform: uppercase;
-}
 
+}
 .hero-button {
 background: var(--acssent-color);
+margin-top: 350px;
+margin-bottom: 200px;
 }
-
+.about {
+  padding-top: 94px;
+}
 .about-title {
   color: var(--text-color);
 font-size: 14px;
@@ -103,16 +109,20 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-}
 
+}
 .about-text {
   color: var(--addres-color);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
-}
 
+}
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .work-title {
   color: var(--text-color);
 
@@ -121,12 +131,16 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-}
 
+}
+.work-img {
+  margin-bottom: 94px;
+}
 .command {
   background-color: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
 .command-title {
   color:  var(--text-color);
 text-align: center;
@@ -134,8 +148,11 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-}
 
+}
+.command-img {
+  margin-top: 186px;
+}
 .command-name {
   color:  var(--text-color);
 
@@ -144,8 +161,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
-}
 
+}
 .command-text {
   color: var(--addres-color);
 
@@ -155,22 +172,20 @@ font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
 }
-
 .footer {
-  background-color: var(--footer-background);
-  width: 1600px;
-height: 252px;
+background-color: var(--footer-background);
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
-.studio {
-  color: var(--logo-color);
+.stud1o {
+  color: var(--main-background);
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
-
 .footer-map {
   color: var(--main-background);
 
@@ -179,7 +194,6 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
-
 .footer-link {
   color: var(--addres-color);
 
@@ -188,11 +202,9 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
-
-.hiro {
+.hero {
   background-color: var(--main-background);
 }
-
 .hero-title {
   color: var(--text-color);
 font-size: 18px;
@@ -202,7 +214,6 @@ letter-spacing: 1.08px;
 Content
 
 }
-
 .hero-text {
   color: var(--addres-color);
 
