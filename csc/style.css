@@ -29,13 +29,16 @@ img {
   display: block;
 }
 
+.personal {
+  display: flex;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid red;
+  margin-bottom: 30px;
+  border: 2px dashed red;
 }
 
 body {
