@@ -35,10 +35,8 @@ img {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 30px;
-  border: 2px dashed red;
+  padding: 0 15px; 
+  margin: 0 auto;
 }
 
 body {
@@ -64,7 +62,26 @@ body {
 }
 
 .hero {
-  background-color: var(--color);
+  background-color: var(--background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.header {
+  padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-portfolio);
+    width: 1600px;
+}
+
+.header-studio {
+  padding-right: 93px;
+}
+
+.header-box{
+ 
+  display: flex;
 }
 
 .header-link {
@@ -73,6 +90,29 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+}
+
+.header-list {
+  gap: 50px ;
+  display: flex;
+}
+
+.header-ford {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  padding-right: 344px;
+}
+
+.nav-list {
+  gap: 50px ;
+  display: flex;
+}
+
+.nav-item{
+
 }
 
 .nav-link {
@@ -95,27 +135,42 @@ body {
 
 .hero-titl {
   color: var(--title-color);
-  text-align: center;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+margin-left: auto ;
+width: 696px;
+margin-right: auto ;
+margin-bottom: 30px ;
 }
 
 .hero-button {
   color: var(--title-color);
-  text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
   background: var(--accent-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px;
+  border: none;
 }
 
 /* advantages */
+
+
+.about {
+  padding-top: 94px ;
+  padding-bottom: 94px;
+  
+}
+
+.about-list {
+  display: flex;
+  gap: 30px;
+}
 
 .about-title {
   color: var(--color);
@@ -124,6 +179,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .about-text {
@@ -136,6 +192,10 @@ body {
 
 /* work */
 
+.work {
+  padding-bottom: 94px;
+}
+
 .work-title {
   color: var(--color);
   text-align: center;
@@ -143,9 +203,20 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  margin-bottom: 50px ;
+}
+
+.personal{
+  gap: 30px ;
 }
 
 /* team */
+
+.command{
+  background-color: var(--background-color1);
+  padding-bottom: 94px ;
+  padding-top: ;
+}
 
 .command-title {
   color: var(--color);
@@ -154,6 +225,7 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 .command-name {
   color: var(--color);
