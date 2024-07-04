@@ -230,7 +230,39 @@ margin-bottom: 30px ;
   padding-top: ;
 }
 
-.div-command-item1 {
+.command-title {
+  color: var(--color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+.command-name {
+  color: var(--color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
+}
+
+.command-img{
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+}
+
+.command-text {
+  color: var(--desk-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
+}
+.div-comm-item1 {
     background-color: var(--title-color);
 }
 
@@ -246,19 +278,19 @@ margin-bottom: 30px ;
     background-color: var(--title-color);
 }
 
-.command-item {
+.team-items {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.command-img {
+.team-img {
     width: 270px;
     height: 260px;
     flex-shrink: 0;
 }
 
-.command-list {
+.team-heading {
     color: var(--color);
     text-align: center;
     font-size: 16px;
@@ -270,7 +302,7 @@ margin-bottom: 30px ;
     padding-top: 30px;
 }
 
-.command-text {
+.team-text {
     color: #757575;
     text-align: center;
     font-size: 16px;
@@ -281,16 +313,6 @@ margin-bottom: 30px ;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 30px;
-}
-
-.command-title {
-  color: var(--color);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
 }
 
 
