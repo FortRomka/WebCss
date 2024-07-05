@@ -50,6 +50,7 @@ body {
   font-family: 'Roboto';
 }
 
+
 .web {
   color: var(--accent-color);
   font-family: Raleway;
@@ -227,70 +228,38 @@ margin-bottom: 30px ;
 .command{
   background-color: var(--background-color1);
   padding-bottom: 94px ;
-  padding-top: ;
+  padding-top: 94px;
 }
 
-.command-title {
-  color: var(--color);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
-}
-.command-name {
-  color: var(--color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.19;
-  letter-spacing: 0.48px;
-}
-
-.command-img{
-  width: 270px;
-  height: 260px;
-  flex-shrink: 0;
-}
-
-.command-text {
-  color: var(--desk-color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.19;
-  letter-spacing: 0.48px;
-}
-.div-comm-item1 {
+.div-command-item1 {
     background-color: var(--title-color);
 }
 
-.div-team-item2 {
+.div-command-item2 {
     background-color: var(--title-color); 
 }
 
-.div-team-item3 {
+.div-command-item3 {
     background-color: var(--title-color);
 }
 
-.div-team-item4 {
+.div-command-item4 {
     background-color: var(--title-color);
 }
 
-.team-items {
+.command-title {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.team-img {
+.command-img {
     width: 270px;
     height: 260px;
     flex-shrink: 0;
 }
 
-.team-heading {
+.command-item {
     color: var(--color);
     text-align: center;
     font-size: 16px;
@@ -302,7 +271,7 @@ margin-bottom: 30px ;
     padding-top: 30px;
 }
 
-.team-text {
+.command-name {
     color: #757575;
     text-align: center;
     font-size: 16px;
