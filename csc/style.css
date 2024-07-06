@@ -29,27 +29,24 @@ img {
   display: block;
 }
 
-
-.work-img {
-  width: 370px;
-  height: 294px;
-  flex-shrink: 0;
-}
-
-.personal {
-  display: flex;
+body {
+  font-family: 'Roboto';
 }
 
 .container {
   width: 1200px;
   padding: 0 15px; 
   margin: 0 auto;
+  outline: 1px solid red;
 }
 
-body {
-  font-family: 'Roboto';
+.work-img {
+  width: 370px;
 }
 
+.personal {
+  display: flex;
+}
 
 .web {
   color: var(--accent-color);
@@ -80,16 +77,15 @@ body {
   padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid var(--border-portfolio);
-    width: 1600px;
 }
 
-.header-studio {
-  padding-right: 93px;
+.header-studio{
+  margin-right: 93px;
 }
 
 .header-box{
- 
   display: flex;
+  align-items: center;
 }
 
 .header-link {
@@ -111,7 +107,7 @@ body {
 }
 
 .header-nav {
-  padding-right: 344px;
+  margin-right: auto;
 }
 
 .nav-list {
@@ -164,6 +160,7 @@ margin-bottom: 30px ;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px 0px;
   border: none;
+  padding: 10px 32px;
 }
 
 .hero-img{
@@ -219,44 +216,32 @@ margin-bottom: 30px ;
   margin-bottom: 50px ;
 }
 
-.personal{
-  gap: 30px ;
+.work-list{
+display: flex;
+gap: 30px;
 }
 
 /* command */
 
 .command{
+  text-align:center;
   background-color: var(--background-color1);
   padding-bottom: 94px ;
   padding-top: 94px;
 }
 
-.div-command-item1 {
-    background-color: var(--title-color);
-}
-
-.div-command-item2 {
-    background-color: var(--title-color); 
-}
-
-.div-command-item3 {
-    background-color: var(--title-color);
-}
-
-.div-command-item4 {
-    background-color: var(--title-color);
-}
-
 .command-title {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+  color: var(--color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px ;
 }
 
 .command-img {
     width: 270px;
-    height: 260px;
-    flex-shrink: 0;
 }
 
 .command-item {
@@ -266,25 +251,38 @@ margin-bottom: 30px ;
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.48px;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
 }
 
 .command-name {
-    color: #757575;
+    color: var(--color);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.19;
     letter-spacing: 0.48px;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 
+.command-list{
+  display: flex;
+  gap: 30px;
+}
+ 
+.div-command{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--title-color);
+}
 
+.command-text{
+  color: var(--desk-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
 
 /* portfolio */
 
@@ -335,6 +333,19 @@ margin-bottom: 30px ;
 
 .footer {
   background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-address{
+  margin-top: 20px;
+}
+
+.footer-list{
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .footer-link {
