@@ -205,6 +205,55 @@ body {
   letter-spacing: 0.42px;
 }
 
+.about-item::before{
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.about-item:nth-child(1)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/antenna.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-item:nth-child(2)::before{
+  content: "";
+  display: block;
+  border-radius: 5px;
+  background-image: url(../img/clock.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-item:nth-child(3)::before{
+  content: "";
+  display: block;
+  border-radius: 5px;
+  background-image: url(../img/diagram.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-item:nth-child(4)::before{
+  content: "";
+  display: block;
+  border-radius: 5px;
+  background-image: url(../img/astronaut.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* work */
 
 .work {
