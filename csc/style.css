@@ -53,10 +53,6 @@ body {
   width: 370px;
 }
 
-.personal {
-  display: flex;
-}
-
 .web {
   color: var(--accent-color);
   font-family: Raleway;
@@ -345,9 +341,7 @@ body {
     background: var(--accent-color);
 }
 
-
 .hero-title {
-
   color: var(--color);
   font-size: 16px;
   font-weight: 700;
