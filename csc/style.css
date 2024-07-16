@@ -76,6 +76,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: url(../img/command.jpg);
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -153,19 +155,22 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
 }
-
 .hero-button {
   color: var(--title-color);
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.88;
-  /* 187.5% */
+  line-height: 1.88; /* 187.5% */
   letter-spacing: 0.96px;
+  
   border-radius: 4px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
   border: none;
-  padding: 10px 32px;
+  box-shadow: none;
 }
 
 .hero-img {
@@ -360,6 +365,7 @@ body {
   padding-bottom: 20px;
 }
 
+
 .what-button {
   color: var(--color);
   text-align: center;
@@ -429,7 +435,7 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-address {
+.footer-map {
   color: var(--title-color);
   font-size: 14px;
   font-weight: 400;
