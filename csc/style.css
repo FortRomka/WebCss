@@ -433,6 +433,7 @@ body {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  
 }
 
 .footer-map {
@@ -443,8 +444,12 @@ body {
   letter-spacing: 0.42px;
 }
 
-.footer-items {
+.footer-address {
   margin-top: 20px;
+}
+
+.footer-maps{
+  margin-bottom: 9px;
 }
 
 .footer-item {
