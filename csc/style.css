@@ -78,6 +78,8 @@ body {
   text-align: center;
   background-image: url(../img/command.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .header {
@@ -218,6 +220,9 @@ body {
   display: block;
   border-radius: 5px;
   margin-bottom: 24px;
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
 }
 
 .about-item:nth-child(1)::before{
