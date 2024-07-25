@@ -225,6 +225,8 @@ body {
   background-repeat: no-repeat;
 }
 
+.about-item:
+
 .about-item:nth-child(1)::before{
   content: "";
   display: block;
