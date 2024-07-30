@@ -116,24 +116,6 @@
     letter-spacing: 0.28px;
   }
 
- 
-
- 
-  
-
-  .header-list {
-    display: flex;
-    gap: 50px;
-  }
-
-  .nav-link {
-    color: var(--color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-  }
-  
   .current {
     color: var(--accent-color);
   }
@@ -216,16 +198,11 @@
 
   /* hero */
 
-  .hero {
-
-  }
-
   .hero-titl {
     color: var(--title-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
     margin-left: auto;
@@ -239,7 +216,6 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
-    /* 187.5% */
     letter-spacing: 0.96px;
 
     border-radius: 4px;
@@ -285,7 +261,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-    /* 171.429% */
     letter-spacing: 0.42px;
   }
 
@@ -458,7 +433,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-    /* 162.5% */
     letter-spacing: 0.48px;
 
     border-radius: 4px;
@@ -481,7 +455,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-    /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: var(--accent-color);
@@ -551,7 +524,7 @@
     color: #FFF;
    font-size: 14px;
    font-weight: 400;
-   line-height: 24px; /* 171.429% */
+   line-height: 1.71px; 
    letter-spacing: 0.42px;
   }
 
