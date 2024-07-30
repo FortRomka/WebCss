@@ -118,14 +118,22 @@
 
  
 
-  .nav-link:hover {
-    color: var(--accent-color);
+ 
+  
+
+  .header-list {
+    display: flex;
+    gap: 50px;
+  }
+
+  .nav-link {
+    color: var(--color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
   }
-
+  
   .current {
     color: var(--accent-color);
   }
@@ -134,20 +142,8 @@
     color: var(--accent-color);
   }
 
-  .header-list {
-    display: flex;
-    gap: 50px;
-  }
-
-  .roster-link {
-    color: var(--desk-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.28px;
-  }
-
-  .roster-link:hover {
+  .nav-link:hover,
+  .nav-link:focus {
     color: var(--accent-color);
   }
 
@@ -174,6 +170,11 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+  }
+
+  .header-link:hover,
+  .header-link:focus{
+    color: var(--accent-color);
   }
 
   .header-list {
