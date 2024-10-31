@@ -82,8 +82,8 @@
                 <h2 class="work-title">Чим ми займаємося</h2>
                 <ul class="work-list">
                     <li class="work-item">
-                    <img src="./img/computer.jpg" alt="Програмування" class="work-img">
-                    <h2 class="work-text">Десктопні додатки</h2>
+                        <img src="./img/computer.jpg" alt="Програмування" class="work-img">
+                        <h2 class="work-text">Десктопні додатки</h2>
                     </li>
                     <li class="work-item">
                         <img src="./img/phone.png" alt="Вибирати дизайн сайту" class="work-img">
@@ -353,6 +353,31 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <form>
+                <h2 class="text-modal">Залиште свої дані, ми вам передзвонимо</h2>
+                <label for="name" class="modal-label">Ім'я</label>
+                <input type="text" class="model-input" id="name">
+
+                <label for="phone" class="modal-label">Телефон</label>
+                <input type="tel" class="model-input" id="phone">
+
+                <label for="email" class="modal-label">Пошта</label>
+                <input type="email" class="model-input" id="email">
+
+                <label for="comment" class="modal-label">Коментар</label>
+                <textarea name="comment" id="comment" class="modal-texttarea" placeholder="Введіть текст"></textarea>
+
+                <label class="modal-vrab">
+                    <input type="checkbox" class="model-chechbox">
+                    <span class="modal-span">Погоджуюся з розсилкою та приймаю</span>
+                    <a href="#" class="modal-link">Умови договору</a>
+                </label>
+                <button type="submit" class="modal-btn">Відправити</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
