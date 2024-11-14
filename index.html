@@ -49,7 +49,8 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-titl">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero-button">Замовити послугу</button>
+                <button type="button" class="hero-button" data-modal-open><span class="hero-btn-title">Замовити
+                        послугу</span></button>
             </div>
         </section>
         <section class="about">
@@ -93,6 +94,7 @@
                         <img src="./img/tablet.png" alt="Підбір кольорів на планшеті" class="work-img">
                         <h2 class="work-text">Дизайнерські рішення</h2>
                     </li>
+                </ul>
             </div>
         </section>
         <section class="command">
@@ -301,7 +303,6 @@
             </ul>
         </div>
     </section>
-    </main>
     <footer class="footer">
         <div class="container">
             <div>
@@ -347,37 +348,65 @@
                             <svg class="footer-element-img">
                                 <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
+
                         </a>
                     </li>
                 </ul>
+                <a href="#qerty" class="scroll">
+                    <svg class="scrollicon">
+                        <use href="./img/symbol-defs.svg#icon-arrow-up"></use>
+                    </svg>
+                </a>
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <form>
                 <h2 class="text-modal">Залиште свої дані, ми вам передзвонимо</h2>
                 <label for="name" class="modal-label">Ім'я</label>
-                <input type="text" class="model-input" id="name">
-
+                <div class="modal-wrab">
+                    <input type="text" class="model-input" id="name" required>
+                    <svg class="modalicon">
+                        <use href="./img/symbol-defs.svg#icon-person"></use>
+                    </svg>
+                </div>
                 <label for="phone" class="modal-label">Телефон</label>
-                <input type="tel" class="model-input" id="phone">
+                <div class="modal-wrab">
+                    <input type="tel" class="model-input" id="phone" required
+                        pattern="^(?:\+38)?(0\d{9}|[1-9]\d{7,9})$">
+
+                    <svg class="modalicon">
+                        <use href="./img/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </div>
 
                 <label for="email" class="modal-label">Пошта</label>
-                <input type="email" class="model-input" id="email">
+                <div class="modal-wrab">
+                    <input type="email" class="model-input" id="email" required>
 
+                    <svg class="modalicon">
+                        <use href="./img/symbol-defs.svg#icon-email"></use>
+                    </svg>
+                </div>
                 <label for="comment" class="modal-label">Коментар</label>
                 <textarea name="comment" id="comment" class="modal-texttarea" placeholder="Введіть текст"></textarea>
 
                 <label class="modal-vrab">
-                    <input type="checkbox" class="model-chechbox">
+                    <input type="checkbox" class="model-chechbox" required>
                     <span class="modal-span">Погоджуюся з розсилкою та приймаю</span>
                     <a href="#" class="modal-link">Умови договору</a>
                 </label>
                 <button type="submit" class="modal-btn">Відправити</button>
+                <button type="button" class="modal-close" data-modal-close>
+                    <svg class="modalicon-close">
+                        <use href="./img/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
             </form>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
