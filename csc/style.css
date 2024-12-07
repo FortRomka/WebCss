@@ -923,6 +923,45 @@
     letter-spacing: 0.78px;
   }
 
+  /* Подписка */
+
+.subscribe-section{
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+button {
+  color: var(--color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: var(--accent-color);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+}
+
+.fly{
+  width: 20px;
+    height: 20px;
+    fill: var(--title-color);
+}
+
+button:hover + .fly:hover{
+
+}
+
   /* backdrop */
 
 .backdrop{
