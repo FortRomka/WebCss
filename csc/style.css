@@ -799,17 +799,21 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    border: 1px solid #AFB1B8;
+    outline: 1px solid #AFB1B8;
     width: 170px;
     height: 92px;
     transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    border: none;
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-link:hover,
+.clients-link:focus{
+  outline: 1px solid var(--accent-color);
+  border: 0px solid transparent;
+  .clients-img{
     fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
+  }
 }
-
 
 .clients-img {
     width: 106px;
@@ -826,12 +830,6 @@
   transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.clients-img:hover, .clients-img:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
-
   /* footer */
 
   .footer {
@@ -843,6 +841,7 @@
 .footer .container{
   display: flex;
   align-items: baseline;
+  outline: 1px solid red;
 }
 
   .footer-map {
@@ -941,6 +940,10 @@
   /* Подписка */
 
 .subscribe-section{
+  margin-left: auto;
+}
+
+.subscribe-text{
   color: var(--title-color);
   font-size: 14px;
   font-weight: 700;
@@ -950,32 +953,45 @@
   margin-bottom: 20px;
 }
 
-button {
-  color: var(--color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.48px;
-
-    border-radius: 4px;
-    background: var(--accent-color);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border: none;
+.subscribe-email{
+  width: 358px;
+height: 50px;
+border-radius: 4px;
+outline: 1px solid rgba(255, 255, 255, 0.30);
+border: none;
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding-left: 16px;
 }
 
-.fly{
+
+.subscribe-buttom {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+
+  background-color: var(--accent-color);
+  padding: 10px 62px 10px 28px ;
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin-left: 12px;
+}
+
+.subscribe-element-img{
   width: 20px;
     height: 20px;
     fill: var(--title-color);
+    position: absolute;
+    left: 148px ;
+    top: 13px;
 }
 
-button:hover + .fly:hover{
 
-}
 
   /* backdrop */
 
@@ -1038,6 +1054,7 @@ display: block;
 margin-top: 4px;
 margin-bottom: 10px;
 padding-left: 42px;
+caret-color: #2196F3;
 }
 
 .model-input:hover,
@@ -1140,8 +1157,15 @@ right: 8px;
 border: none;
 }
 
-.modalicon-close{
+.modalicon-close {
 width: 18px;
 height: 18px;
-fill: #000;
+fill: #000000;
+}
+
+.modal-close:hover, 
+.modal-close:focus{
+  .modalicon-close{
+    fill: #2196F3;
+  }
 }
