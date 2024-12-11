@@ -668,6 +668,15 @@
     letter-spacing: 0.48px;
   }
 
+  .hero-op{
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.55;
+letter-spacing: 0.54px;
+  }
+
+
   .hero-list {
     display: flex;
     flex-wrap: wrap;
@@ -680,7 +689,24 @@
 
   .hero-item {
     flex-basis: calc((100% - 60px) / 3);
+    background-color: white; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+  .hero-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+
+  .hero-img {
+    width:  370px; 
+    height: 294px; 
+    object-fit: cover; 
+  }
+
 
  /* command */
  .command {
@@ -771,6 +797,7 @@
   fill: var(--clients-border);
   transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+
 
   /* client */
 
