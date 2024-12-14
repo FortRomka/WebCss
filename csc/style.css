@@ -397,6 +397,8 @@
     background-position: center;
     background-size: 70px 70px;
     background-repeat: no-repeat;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
   }
 
 
@@ -407,6 +409,7 @@
     background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 1; 
   }
 
   .about-item:nth-child(2)::before {
@@ -707,12 +710,12 @@
     background-color: rgba(33, 150, 243, 0.90);
     justify-content: center;
     align-items: center;
-    opacity: 0; /* Скрыть изначально */
-    transition: opacity 0.3s ease-in-out; /* Плавный переход */
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
 }
 
 .hero-item:hover .hero-overlay {
-    opacity: 1; /* Показать при наведении */
+    opacity: 1; 
 }
 
 .hero-overlay-text {
