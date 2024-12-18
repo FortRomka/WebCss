@@ -124,6 +124,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
 
   .nav-item {
@@ -143,7 +144,7 @@
     width: 0;
     height: 2px; 
     background-color: #007BFF; 
-    transition: width 0.3s ease; 
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
   
   .nav-item:hover::after {
@@ -227,13 +228,14 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
-    transition: 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .roster-img {
   width: 16px;
   height: 12px;
   fill: var(--desk-color);
+  transition: 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .roster-item:last-child .roster-img{
@@ -581,12 +583,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .command-icon{
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .command-link:hover, .command-link:focus{
@@ -712,10 +716,12 @@
     align-items: center;
     opacity: 0; 
     transition: opacity 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .hero-item:hover .hero-overlay {
     opacity: 1; 
+    transform: translateY(0);
 }
 
 .hero-overlay-text {
