@@ -1,0 +1,27 @@
+.what {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+
+  .button-wht {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .what-button {
+    color: var(--color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+
+    border-radius: 4px;
+    background: var(--background-color1);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+  }
