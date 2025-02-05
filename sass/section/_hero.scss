@@ -1,6 +1,6 @@
 
 .hero {
-    background-color: var(--background-color);
+    background-color: $background-color;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -8,49 +8,34 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
 
-  .hero-btn-title {
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 187.5% */
-    letter-spacing: 0.96px;
-  }
+    &__titl {
+      color: $title-color;
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 1.36;
+      letter-spacing: 2.64px;
+      text-transform: uppercase;
+      margin-left: auto;
+      width: 696px;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
 
-  .hero-titl {
-    color: var(--title-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-    margin-left: auto;
-    width: 696px;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
-  .hero-button {
-    color: var(--title-color);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.88;
-    letter-spacing: 0.96px;
-
-    border-radius: 4px;
-    background: var(--accent-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 32px;
-    padding-left: 32px;
-    border: none;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15) ;
-  }
-
-  .hero-img {
-    width: 100%;
+    &__button {
+      color: $title-color;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.88;
+      letter-spacing: 0.96px;
+  
+      border-radius: 4px;
+      background: $accent-color;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 32px;
+      padding-left: 32px;
+      border: none;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15) ;
+    }
   }
