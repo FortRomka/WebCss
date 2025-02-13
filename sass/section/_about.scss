@@ -13,7 +13,7 @@
         content: "";
         width: 270px;
         height: 120px;
-        background-color: #F5F4FA;
+        background-color: $background-color1;
         display: block;
         border-radius: 5px;
         margin-bottom: 24px;
@@ -65,7 +65,7 @@
     }
 
     &__title {
-      color: var(--color);
+      color: $color;
       font-size: 14px;
       font-weight: 700;
       line-height: 1.14;
@@ -75,7 +75,7 @@
     }
   
     &__text {
-      color: var(--desk-color);
+      color: $desk-color;
       font-size: 14px;
       font-weight: 400;
       line-height: 1.71;

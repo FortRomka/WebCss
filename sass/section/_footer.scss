@@ -146,7 +146,7 @@ padding-left: 16px;
     transform: scale(1.1);
     background-color: $background-color1;
     color: $accent-color;
-    border-color: red;
+    border-color: $border-color;
     .subscribe-element-img{
       transform: rotate(360deg);
       fill: #064e9a;
