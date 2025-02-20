@@ -78,12 +78,13 @@
 
     &__item {
       position: relative;
-      display: inline-block;
+      // display: inline-block;
       color: $accent-color; 
       text-decoration: none;
-      justify-content: center;
-      align-items: center;
+      // justify-content: center;
+      // align-items: center;
 
+      @include flex($display:inline-block);
 
       &::after {
         content: '';

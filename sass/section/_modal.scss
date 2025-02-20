@@ -34,6 +34,15 @@ display: block;
 
 }
 
+&__icon{
+  width: 18px;
+  height: 18px;
+  fill: #212121;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+
 &__input{
   width: 448px;
   height: 40px;
@@ -57,14 +66,6 @@ display: block;
    fill: $accent-color;
   }
 
-  &__icon{
-    width: 18px;
-    height: 18px;
-    fill: #212121;
-    position: absolute;
-    top: 11px;
-    left: 12px;
-  }
 
   }
 

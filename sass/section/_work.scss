@@ -28,9 +28,11 @@
     }
 
     &__text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+        @include flex();
         position: absolute;
         bottom: 0;
         width: 370px;
