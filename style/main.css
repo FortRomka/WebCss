@@ -457,6 +457,7 @@ body {
   }
 }
 .command__item {
+  width: 100%;
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -467,8 +468,38 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   background-color: #FFFFFF;
 }
+@media screen and (min-width: 480px) {
+  .command__item {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .command__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .command__item {
+    width: 270px;
+  }
+}
 .command__img {
-  width: 270px;
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .command__img {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .command__img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .command__img {
+    width: 270px;
+  }
 }
 .command__name {
   color: #212121;
