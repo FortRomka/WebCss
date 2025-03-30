@@ -8,12 +8,24 @@
   }
 
   &__item {
-    flex-basis: calc((100% - 60px) / 3);
+    flex-basis: 100%;
     background-color: $title-color; 
     border-radius: 10px; 
     overflow: hidden;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    @media screen and (min-width: 480px) {
+      flex-basis: 450px;
+    }
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 60px) / 3);
+    }
 
     &:hover {
       box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); 
