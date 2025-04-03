@@ -43,6 +43,20 @@
     color: $accent-color;
   }
 
+  &__menu{
+    background-color: transparent;
+    border: none;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__burger{
+    width: 40px;
+    height: 40px;
+  }
+
   &__nav{
     display: none;
 
@@ -165,4 +179,86 @@
   .current {
     color: $accent-color;
   }
+
+  // мобільне меню
+
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $title-color;
+    z-index: 1;
+    opacity: 1;
+    padding: 48px 0 48px 40px;
+
+    &__close{
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__icon{
+      width: 30px;
+      height: 30px;
+    }
+
+    &__list{
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    &__link{
+      color: $color;
+font-size: 40px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.8px;
+
+&:hover,
+&:focus{
+  color: $accent-color;
+}
+    }
+
+    &__itms{
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      margin-top: 100px;
+    }
+
+    &__contact1{
+      color: $accent-color;
+font-size: 34px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.68px;
+    }
+
+    &__contact2{
+      color: $desk-color;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
+  }
+
+  .is-hidden{
+    pointer-events: none;
+    opacity: 0;
+
+  }
+  
  
