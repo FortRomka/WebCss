@@ -263,6 +263,11 @@ body {
 .menu__link:hover, .menu__link:focus {
   color: #2196F3;
 }
+.menu__posithion {
+  position: absolute;
+  left: 40px;
+  bottom: 48px;
+}
 .menu__itms {
   display: flex;
   flex-direction: column;
@@ -282,6 +287,28 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
+}
+.menu__lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 64px;
+}
+.menu__social {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+  display: flex;
+}
+.menu__elem:not(:last-child) .menu__social::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 22px;
+  margin-left: 10px;
+  background: rgba(33, 33, 33, 0.2);
 }
 
 .is-hidden {
@@ -1028,7 +1055,7 @@ body {
   }
 }
 .footer__input {
-  width: 100%;
+  width: 320px;
   height: 50px;
   border-radius: 4px;
   outline: 1px solid rgba(255, 255, 255, 0.3);
@@ -1051,12 +1078,13 @@ body {
   width: 200px;
   height: 50px;
   color: #FFFFFF;
-  text-align: center;
+  text-align: start;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
   background-color: #2196F3;
+  padding-left: 31px;
   border-radius: 4px;
   border: 1px solid #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -1078,7 +1106,7 @@ body {
   height: 20px;
   fill: #FFFFFF;
   position: absolute;
-  left: 148px;
+  right: 28px;
   top: 13px;
   transition: 1000ms;
 }
